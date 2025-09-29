@@ -145,7 +145,7 @@ export default function SubjectPage() {
       <form method="post" onSubmit={handleSubmit} style={styles.form}>
         <input
           type="text"
-          placeholder="Eg:20XX-XX"
+          placeholder="subject"
           style={styles.input}
           name="name"
           value={form.name}
